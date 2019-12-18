@@ -217,9 +217,14 @@ nav {
 
 }
 
-.drop-down-logo span{
-	display: block;
+.drop-down-logo span {
 	margin: 4px auto;
+}
+
+.drop-down-logo span,
+.drop-down-logo::before,
+.drop-down-logo::after{
+	display: block;
 	width: 30px;
 	height: 4px;
 	background-color: #fb9a94;
@@ -228,11 +233,7 @@ nav {
 .drop-down-logo::before,
 .drop-down-logo::after {
 	content: "";
-	display: block;
 	margin: 0 auto;
-	width: 30px;
-	height: 4px;
-	background-color: #fb9a94;
 }
 
 .dropdown-item:focus,
@@ -258,6 +259,43 @@ nav {
 }
 
 }
-@media (min-width: 576px) {
+
+@media (max-width: 480px) {
+
+.flex2-child3 {
+	font-size: 14px;
+}
+
+.pr-2 {
+	padding-right: 3px !important;
+}
+
+.flex2-child3-svg {
+	display: none;
+}
+
+.pl-3 {
+	padding-left: 3px !important;
+}
+
+.btn-group {
+	width: 50px;
+	height: 50px;
+}
+
+.drop-down-logo span,
+.drop-down-logo::before,
+.drop-down-logo::after {
+	width: 24px;
+}
+
+.flex2-child3 {
+	position: absolute;
+	top: -4px;
+}
+
+.dropdown-menu {
+	transform: translate3d(-166px, 54px, 0px) !important;
+}
 
 }
