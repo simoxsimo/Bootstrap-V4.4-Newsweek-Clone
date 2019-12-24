@@ -276,9 +276,14 @@ h5 a:hover {
 	color: #f72210;
 }
 
-.culture-travel {
+.culture-travel,
+.culture-travel-2 {
 	background-color: #f4f5f7;
 	width: 100%;
+}
+
+.culture-travel-2 {
+	display: none;
 }
 
 .bootstrap-PndM-sucks {
@@ -722,11 +727,21 @@ h5 {
 
 @media (max-width: 991px) {
 
-.container,
+header {
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+header,
 .top-header {
 	margin: 0 !important;
 	padding: 0 !important;
 	height: 50px;
+}
+
+.margin-fixed-nav {
+	margin-top: 50px;
 }
 
 .flex2-parent {
@@ -821,6 +836,124 @@ nav {
 
 .flex3-parent li {
 	margin-left: 24px;
+}
+
+.opinion-news {
+	height: 1480px;
+}
+
+.editor-artcl {
+	width: 50%;
+}
+
+.sub-content {
+	padding-left: 20%;
+}
+
+.newsletter-sub-container {
+	margin-left: 20px; 
+}
+
+.newsletter-img {
+	width: 20%;
+	height: 220px;
+}
+
+.newsletter-sub-content {
+	width: 80%;
+	height: 220px;
+}
+
+}
+
+@media (max-width: 767px) {
+
+.culture-travel {
+	display: none;
+}
+
+.culture-travel-2 {
+	display: block;
+}
+
+.more-stories-artcl,
+.latest-stories-artcl,
+.slideshow-artcl-items {
+	width: 100%;
+	min-height: 202px;
+}
+
+.more-stories-img,
+.latest-stories-img,
+.more-news-artcl-img-2 {
+	width: 258px;
+	height: auto;
+}
+
+.feat-stories {
+	height: 2200px;
+}
+
+.opinion-news {
+	padding-left: 15px;
+	height: 2150px;
+}
+
+.magazine {
+	width: 100%;
+	height: auto;
+}
+
+.in-magazine {
+	width: 100%;
+}
+
+.magazine-artcls > div {
+	padding-left: 15px;
+}
+
+.in-magazine-artcl,
+.in-magazine-img,
+.in-magazine-artcl2,
+.in-magazine-img-2,
+.editor-artcl,
+.editor-artcl-img,
+.slideshow-artcl,
+.slideshow-artcl-img {
+	width: 100%;
+	height: auto;
+}
+
+.slideshow-artcl-items h5 {
+	width: calc(100% - 258px);
+}
+.sub-content {
+	display: none;
+}
+
+.subscribe-artcl {
+	justify-content: center;
+}
+
+.newsletter-sub-2 {
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.newsletter-img {
+	width: 100%;
+}
+
+.newsletter-sub-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.newsweek-footer > div,
+.newsweek-footer-item {
+	flex-direction: column;
 }
 
 }
