@@ -414,6 +414,7 @@ h5 {
 	background-color: #f4f5f6;
 	width: 100%;
 	height: 163px;
+	margin-left: 20px;
 }
 
 .newsletter-sub-logo {
@@ -784,9 +785,6 @@ nav {
 	outline-width: 0;
 }
 
-
-
-
 .dropdown-menu {
 	margin: 0 !important;
 	border: none !important;
@@ -840,6 +838,10 @@ nav {
 
 .opinion-news {
 	height: 1480px;
+}
+
+.newsletter-sub {
+	margin-left: 0;
 }
 
 .editor-artcl {
@@ -987,6 +989,37 @@ nav {
 .drop-down-logo::before,
 .drop-down-logo::after {
 	width: 24px;
+}
+
+.more-stories-img,
+.latest-stories-img,
+.more-news-artcl-img-2 {
+	margin-right: 10px;
+	width: 135px;
+	height: 90px;
+}
+
+.feat-stories,
+.opinion-news {
+	height: auto;
+}
+
+.latest-stories-artcl,
+.slideshow-artcl-items {
+	min-height: 0;
+	height: 130px;
+}
+
+.slideshow-artcl-items h5 {
+	width: auto;
+}
+
+.subscribe-section {
+	padding: 0 15px;
+}
+
+.newsletter-sub-container {
+	margin-left: 0;
 }
 
 }
