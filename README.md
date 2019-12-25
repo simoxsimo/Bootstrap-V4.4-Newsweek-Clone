@@ -23,7 +23,7 @@
 
 ## 🏠 [Homepage](https://github.com/simoxsimo/Bootstrap-V4.4-Newsweek-Clone)
 
-## ⭐️ [Live demo](https://rawcdn.githack.com/simoxsimo/Bootstrap-V4.4-Newsweek-Clone/3010c79856cfa7ded85c10c4d3bd651b68f1221c/index.html)
+## ⭐️ [Live demo](https://simoxsimo.github.io/Bootstrap-V4.4-Newsweek-Clone/)
 
 ## Screenshot
 ![screencapture-rawcdn-githack-simoxsimo-Bootstrap-V4-4-Newsweek-Clone-3010c79856cfa7ded85c10c4d3bd651b68f1221c-index-html-2019-12-25-17_28_16](https://user-images.githubusercontent.com/57480558/71448955-0b571980-273c-11ea-86c2-4883a27e76b0.png)
